@@ -1,0 +1,63 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+
+  build-test:
+    name: Build & Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Build & Test Product Service
+        run: mvn test
+        working-directory: product-service
+
+      - name: Build & Test Order Service
+        run: mvn test
+        working-directory: order-service
+
+      - name: Upload Test Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: "**/target/surefire-reports/*.xml"
+
+  docker-integration:
+    name: Docker Build & Integration Test
+    runs-on: ubuntu-latest
+    needs: build-test
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build and Start Containers
+        run: docker-compose up -d --build
+
+      - name: Wait for services to be ready
+        run: sleep 30
+
+      - name: Test Product Service
+        run: curl -f http://localhost:8080/api/products
+
+      - name: Create Product
+        run: |
+          curl -X POST http://localhost:8080/api/products \
+          -H "Content-Type: application/json" \
+          -d '{"name":"Phone","price":800,"quantity":5}'
+
+      - name: Test Order Service
+        run: curl -f http://localhost:8082/api/orders
