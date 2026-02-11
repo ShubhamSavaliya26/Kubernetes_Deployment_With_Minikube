@@ -14,7 +14,9 @@ public class Orders {
     private Long id;
 
     private Long productId;
-    private int quantity;
-    private double totalPrice;
+    private Integer quantity;
+    private Double totalPrice;
     private String status;
+
+
 }
