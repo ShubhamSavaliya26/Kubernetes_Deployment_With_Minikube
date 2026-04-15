@@ -5,7 +5,8 @@ import com.example.order_service.model.Orders;
 import com.example.order_service.repository.OrderRepository;
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.MeterRegistry;
-import lombok.RequiredArgsConstructor;
+import io.micrometer.tracing.Span;
+import io.micrometer.tracing.Tracer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
@@ -28,14 +29,21 @@ public class OrderController {
 
     private final OrderRepository repo;
     private final RestTemplate restTemplate;
+    private final Tracer tracer;
     private final Counter ordersCreatedCounter;
 
     @Value("${product.service.url}")
     private String productUrl;
 
-    public OrderController(OrderRepository repo, RestTemplate restTemplate, MeterRegistry meterRegistry) {
+    public OrderController(
+            OrderRepository repo,
+            RestTemplate restTemplate,
+            MeterRegistry meterRegistry,
+            Tracer tracer
+    ) {
         this.repo = repo;
         this.restTemplate = restTemplate;
+        this.tracer = tracer;
         this.ordersCreatedCounter = Counter.builder("orders_created_total")
                 .description("Total number of orders created")
                 .register(meterRegistry);
@@ -75,8 +83,9 @@ public class OrderController {
                 productUrl, order.getProductId());
 
         Product product;
+        Span customSpan = tracer.nextSpan().name("call-product-service");
 
-        try {
+        try (Tracer.SpanInScope ws = tracer.withSpan(customSpan.start())) {
             HttpHeaders headers = new HttpHeaders();
             headers.set("X-Correlation-Id", correlationId);
 
@@ -90,21 +99,24 @@ public class OrderController {
             );
 
             product = response.getBody();
+
+            log.info("Product-service call completed for productId: {}", order.getProductId());
+
         } catch (Exception ex) {
             log.warn("Product unavailable or could not be retrieved for productId: {}",
                     order.getProductId());
             log.error("Order creation failed while calling product-service for productId: {}. Reason: {}",
                     order.getProductId(), ex.getMessage());
             throw new RuntimeException("Product unavailable", ex);
+        } finally {
+            customSpan.end();
         }
 
         if (product == null || product.getQuantity() < order.getQuantity()) {
             log.warn("Product unavailable or insufficient quantity for productId: {}",
                     order.getProductId());
-
             log.error("Order creation failed because productId {} is unavailable or does not have enough quantity",
                     order.getProductId());
-
             throw new RuntimeException("Product unavailable");
         }
 
