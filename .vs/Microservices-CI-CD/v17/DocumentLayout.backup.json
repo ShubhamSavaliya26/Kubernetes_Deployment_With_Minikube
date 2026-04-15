@@ -1,0 +1,254 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\zipkin.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:k8s\\zipkin.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\configmap.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:k8s\\configmap.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\src\\main\\resources\\application.properties||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:order-service\\src\\main\\resources\\application.properties||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\monitoring\\prometheus.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:monitoring\\prometheus.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\src\\main\\java\\com\\example\\order_service\\controller\\OrderController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:order-service\\src\\main\\java\\com\\example\\order_service\\controller\\OrderController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:order-service\\pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\product-deployment.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:k8s\\product-deployment.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\resources\\application.properties||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:product-service\\src\\main\\resources\\application.properties||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:product-service\\pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\filter\\CorrelationIdFilter.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:product-service\\src\\main\\java\\com\\example\\product_service\\filter\\CorrelationIdFilter.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\controller\\ProductController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:product-service\\src\\main\\java\\com\\example\\product_service\\controller\\ProductController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\controller\\VersionController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:product-service\\src\\main\\java\\com\\example\\product_service\\controller\\VersionController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 300,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zipkin.yaml",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\zipkin.yaml",
+              "RelativeDocumentMoniker": "k8s\\zipkin.yaml",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\zipkin.yaml",
+              "RelativeToolTip": "k8s\\zipkin.yaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T22:34:42.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "prometheus.yml",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\monitoring\\prometheus.yml",
+              "RelativeDocumentMoniker": "monitoring\\prometheus.yml",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\monitoring\\prometheus.yml",
+              "RelativeToolTip": "monitoring\\prometheus.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T18:23:01.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "application.properties",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\src\\main\\resources\\application.properties",
+              "RelativeDocumentMoniker": "order-service\\src\\main\\resources\\application.properties",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\src\\main\\resources\\application.properties",
+              "RelativeToolTip": "order-service\\src\\main\\resources\\application.properties",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-14T00:07:30.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "pom.xml",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\pom.xml",
+              "RelativeDocumentMoniker": "product-service\\pom.xml",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\pom.xml",
+              "RelativeToolTip": "product-service\\pom.xml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-14T00:02:08.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pom.xml",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\pom.xml",
+              "RelativeDocumentMoniker": "order-service\\pom.xml",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\pom.xml",
+              "RelativeToolTip": "order-service\\pom.xml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwEkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-14T00:04:42.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.java",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\src\\main\\java\\com\\example\\order_service\\controller\\OrderController.java",
+              "RelativeDocumentMoniker": "order-service\\src\\main\\java\\com\\example\\order_service\\controller\\OrderController.java",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\order-service\\src\\main\\java\\com\\example\\order_service\\controller\\OrderController.java",
+              "RelativeToolTip": "order-service\\src\\main\\java\\com\\example\\order_service\\controller\\OrderController.java",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2026-04-11T16:43:00.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CorrelationIdFilter.java",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\filter\\CorrelationIdFilter.java",
+              "RelativeDocumentMoniker": "product-service\\src\\main\\java\\com\\example\\product_service\\filter\\CorrelationIdFilter.java",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\filter\\CorrelationIdFilter.java",
+              "RelativeToolTip": "product-service\\src\\main\\java\\com\\example\\product_service\\filter\\CorrelationIdFilter.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2026-04-11T16:30:47.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "application.properties",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\resources\\application.properties",
+              "RelativeDocumentMoniker": "product-service\\src\\main\\resources\\application.properties",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\resources\\application.properties",
+              "RelativeToolTip": "product-service\\src\\main\\resources\\application.properties",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T16:32:09.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "product-deployment.yaml",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\product-deployment.yaml",
+              "RelativeDocumentMoniker": "k8s\\product-deployment.yaml",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\product-deployment.yaml",
+              "RelativeToolTip": "k8s\\product-deployment.yaml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-11T15:50:37.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "configmap.yaml",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\configmap.yaml",
+              "RelativeDocumentMoniker": "k8s\\configmap.yaml",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\k8s\\configmap.yaml",
+              "RelativeToolTip": "k8s\\configmap.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-11T15:49:52.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VersionController.java",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\controller\\VersionController.java",
+              "RelativeDocumentMoniker": "product-service\\src\\main\\java\\com\\example\\product_service\\controller\\VersionController.java",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\controller\\VersionController.java",
+              "RelativeToolTip": "product-service\\src\\main\\java\\com\\example\\product_service\\controller\\VersionController.java",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2026-04-11T15:48:52.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.java",
+              "DocumentMoniker": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\controller\\ProductController.java",
+              "RelativeDocumentMoniker": "product-service\\src\\main\\java\\com\\example\\product_service\\controller\\ProductController.java",
+              "ToolTip": "C:\\Users\\Riya\\Desktop\\SEM-6\\Software Delivery And Release Management\\Assignments\\Assignment -3\\Group10_Assignment3_SoftwareDElivery\\Group10\\Microservices-CI-CD\\product-service\\src\\main\\java\\com\\example\\product_service\\controller\\ProductController.java",
+              "RelativeToolTip": "product-service\\src\\main\\java\\com\\example\\product_service\\controller\\ProductController.java",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2026-04-11T15:48:27.753Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

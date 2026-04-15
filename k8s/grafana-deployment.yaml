@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grafana
+  namespace: ecommerce
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grafana
+  template:
+    metadata:
+      labels:
+        app: grafana
+    spec:
+      containers:
+        - name: grafana
+          image: grafana/grafana:11.1.0
+          ports:
+            - containerPort: 3000
+          env:
+            - name: GF_SECURITY_ADMIN_USER
+              value: admin
+            - name: GF_SECURITY_ADMIN_PASSWORD
+              value: admin123
+            - name: GF_SMTP_ENABLED
+              value: "true"
+            - name: GF_SMTP_HOST
+              value: "smtp.gmail.com:587"
+            - name: GF_SMTP_USER
+              value: "riyabbr5@gmail.com"
+            - name: GF_SMTP_PASSWORD
+              value: "admin123"
+            - name: GF_SMTP_FROM_ADDRESS
+              value: "riyabbr5@gmail.com"
+            - name: GF_SMTP_FROM_NAME
+              value: "Grafana"
+            - name: GF_SMTP_SKIP_VERIFY
+              value: "true"

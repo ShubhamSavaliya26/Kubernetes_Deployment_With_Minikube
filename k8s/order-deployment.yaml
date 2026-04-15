@@ -4,7 +4,7 @@ metadata:
   name: order-service
   namespace: ecommerce
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: order-service
@@ -25,8 +25,12 @@ spec:
                 configMapKeyRef:
                   name: ecommerce-config
                   key: PRODUCT_SERVICE_URL
+
             - name: APP_ENV
               valueFrom:
                 configMapKeyRef:
                   name: ecommerce-config
                   key: APP_ENV
+
+            - name: LOGGING_PATTERN_CONSOLE
+              value: "%d{HH:mm:ss} %-5level [%X{correlationId}] %logger{36} - %msg%n"
